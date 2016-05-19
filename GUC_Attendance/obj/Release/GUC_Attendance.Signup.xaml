@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GUC_Attendance;assembly=GUC_Attendance" x:Class="GUC_Attendance.Signup" Title="Sign Up">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="baseStyle" TargetType="Label">
+				<Setter Property="XAlign" Value="Start" />
+				<Setter Property="YAlign" Value="Center" />
+				<Setter Property="FontSize" Value="Micro" />
+				<Setter Property="FontAttributes" Value="Italic" />
+			</Style>
+			<local:BooleanToObjectConverter x:Key="boolToStyleEmail" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Enter a valid GUC email." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+				<local:BooleanToObjectConverter.TrueObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#4CAF50" />
+						<Setter Property="Text" Value="Email Accepted." />
+					</Style>
+				</local:BooleanToObjectConverter.TrueObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleID" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Ex: 28-5365" />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleEmpty" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="This field cannot be empty." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleLength" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Password must be at least of 8 characters." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+				<local:BooleanToObjectConverter.TrueObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#4CAF50" />
+						<Setter Property="Text" Value="Password Accepted." />
+					</Style>
+				</local:BooleanToObjectConverter.TrueObject>
+			</local:BooleanToObjectConverter>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<StackLayout Spacing="10" Padding="20" BackgroundColor="#dbedf2">
+		<Label x:Name="title" Text="GUC Attendance" FontAttributes="Bold" XAlign="Center" TextColor="Black" />
+		<Grid x:Name="grid" RowSpacing="10" Padding="10">
+			<Grid.RowDefinitions>
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Label Grid.Row="0" Grid.Column="1" x:Name="zodiac" Text="Please fill all of the fields below:" TextColor="Black" />
+			<Picker Grid.Row="1" Grid.Column="1" x:Name="position" Title="Student/Instructor">
+				<Picker.Items>
+					<x:String>Student</x:String>
+					<x:String>Instructor</x:String>
+				</Picker.Items>
+			</Picker>
+			<Entry Grid.Row="2" Grid.Column="1" x:Name="fname" Placeholder="First Name">
+				<Entry.Behaviors>
+					<local:NotEmptyValidatorBehavior x:Name="fnameValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Entry Grid.Row="3" Grid.Column="1" x:Name="lname" Placeholder="Last Name">
+				<Entry.Behaviors>
+					<local:NotEmptyValidatorBehavior x:Name="lnameValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Entry Grid.Row="4" Grid.Column="1" x:Name="studentemail" Placeholder="GUC Email">
+				<Entry.Behaviors>
+					<local:StudentEmailValidatorBehavior x:Name="studentemailValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Entry Grid.Row="4" Grid.Column="1" x:Name="instructoremail" Placeholder="GUC Email">
+				<Entry.Behaviors>
+					<local:InstructorEmailValidatorBehavior x:Name="instructoremailValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Label Grid.Row="5" Grid.Column="1" x:Name="studentemailSuccessErrorText" Style="{Binding Source={x:Reference studentemailValidator}, &#xA;										                Path=IsValid, &#xA;										                Converter={StaticResource boolToStyleEmail}}" />
+			<Label Grid.Row="5" Grid.Column="1" x:Name="instructoremailSuccessErrorText" Style="{Binding Source={x:Reference instructoremailValidator}, &#xA;										                Path=IsValid, &#xA;										                Converter={StaticResource boolToStyleEmail}}" />
+			<Entry Grid.Row="6" Grid.Column="1" x:Name="password" Placeholder="Password" IsPassword="true">
+				<Entry.Behaviors>
+					<local:MinLengthValidatorBehavior x:Name="passwordlengthValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Label Grid.Row="7" Grid.Column="1" x:Name="passwordlengthSuccessErrorText" Style="{Binding Source={x:Reference passwordlengthValidator}, &#xA;										                Path=IsValid, &#xA;										                Converter={StaticResource boolToStyleLength}}" />
+			<Entry Grid.Row="8" Grid.Column="1" x:Name="id" Placeholder="ID">
+				<Entry.Behaviors>
+					<local:IDValidatorBehavior x:Name="idValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Label Grid.Row="9" Grid.Column="1" x:Name="idSuccessErrorText" Style="{Binding Source={x:Reference idValidator}, &#xA;										                Path=IsValid, &#xA;										                Converter={StaticResource boolToStyleID}}" />
+		</Grid>
+		<Button x:Name="verify" Text="Verify Your Account" IsEnabled="false" TextColor="#3366cc" FontAttributes="Bold" />
+		<Button x:Name="signup" Text="Register Now!" IsEnabled="false" TextColor="#3366cc" FontAttributes="Bold" />
+	</StackLayout>
+</ContentPage>

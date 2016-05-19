@@ -1,0 +1,282 @@
+# Version: 9.6.1.9 (cycle6-xi-c6sr3: 5f11db8)
+# [first argument, ignore] # /Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/bin/mtouch \
+	--cache \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/obj/iPhoneSimulator/Debug/mtouch-cache" \
+	--sim \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/bin/iPhoneSimulator/Debug/GUC_Attendance.iOS.app" \
+	--executable \
+	GUC_Attendance.iOS \
+	--fastdev \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	7.0 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list" \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll" \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Data.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll" \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/GUC_Attendance/bin/Debug/GUC_Attendance.dll" \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/GUC_Attendance/bin/Debug/GUC_Attendance.dll" \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/bin/iPhoneSimulator/Debug//GUC_Attendance.iOS.exe" \

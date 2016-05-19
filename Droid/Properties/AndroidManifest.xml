@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.11" package="com.zeatef.guc_attendance" android:versionCode="3">
+	<uses-sdk android:minSdkVersion="16" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-feature android:name="android.hardware.wifi" />
+	<application android:label="GUC Attendance" android:icon="@drawable/icon"></application>
+</manifest>

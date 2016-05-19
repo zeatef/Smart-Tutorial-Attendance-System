@@ -1,0 +1,46 @@
+# Version: 9.4.1.25 (cycle6-xi: 962a050)
+# [first argument, ignore] # /Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.4.1.25/bin/mtouch \
+	--cache \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/mtouch-cache" \
+	--sim \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Auth0ClientiOSSample.app" \
+	--executable \
+	Auth0ClientiOSSample \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	6.0 \
+	"--abi=i386,x86_64" \
+	--symbollist \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/mtouch-symbols.list" \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/lib/ios-unified/Newtonsoft.Json.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/lib/ios-unified/Auth0Client.iOS.dll" \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/lib/ios-unified/Newtonsoft.Json.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/lib/ios-unified/Auth0Client.iOS.dll" \
+	-r \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/lib/ios-unified/Xamarin.Auth.iOS.dll" \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug//Auth0ClientiOSSample.exe" \

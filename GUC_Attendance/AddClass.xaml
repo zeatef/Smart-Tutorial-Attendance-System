@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GUC_Attendance;assembly=GUC_Attendance" x:Class="GUC_Attendance.AddClass" Title="Add A Class">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="baseStyle" TargetType="Label">
+				<Setter Property="FontSize" Value="Micro" />
+				<Setter Property="FontAttributes" Value="Italic" />
+			</Style>
+			<local:BooleanToObjectConverter x:Key="boolToStyleEmail" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Enter a valid GUC email." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+				<local:BooleanToObjectConverter.TrueObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#4CAF50" />
+						<Setter Property="Text" Value="Email Accepted." />
+					</Style>
+				</local:BooleanToObjectConverter.TrueObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleCode" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Ex: CSEN102" />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleRoom" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Ex: C7.201" />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleEmpty" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="This field cannot be empty." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleLength" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Password must be at least of 8 characters." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+				<local:BooleanToObjectConverter.TrueObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#4CAF50" />
+						<Setter Property="Text" Value="Password Accepted." />
+					</Style>
+				</local:BooleanToObjectConverter.TrueObject>
+			</local:BooleanToObjectConverter>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ScrollView>
+		<StackLayout Spacing="10" Padding="20" BackgroundColor="#dbedf2">
+			<Grid x:Name="grid" RowSpacing="10" Padding="0">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Label Grid.Row="0" Grid.Column="1" x:Name="zodiac" Text="Please fill all of the fields below:" XAlign="Start" YAlign="Center" TextColor="Black" />
+				<Entry Grid.Row="1" Grid.Column="1" x:Name="cname" Placeholder="Course Name">
+					<Entry.Behaviors>
+						<local:NotEmptyValidatorBehavior x:Name="cnameValidator" />
+					</Entry.Behaviors>
+				</Entry>
+				<Entry Grid.Row="2" Grid.Column="1" x:Name="ccode" Placeholder="Course Code">
+					<Entry.Behaviors>
+						<local:NotEmptyValidatorBehavior x:Name="ccodeValidator" />
+					</Entry.Behaviors>
+				</Entry>
+				<Label Grid.Row="3" Grid.Column="1" x:Name="ccodehelp" XAlign="Start" YAlign="Center" FontSize="Micro" FontAttributes="Italic" Text="Ex: CSEN102" TextColor="Black" />
+				<Entry Grid.Row="4" Grid.Column="1" x:Name="tutorialgroup" Placeholder="Tutorial Group">
+					<Entry.Behaviors>
+						<local:TutorialGroupValidatorBehavior x:Name="tutorialGroupValidator" />
+					</Entry.Behaviors>
+				</Entry>
+				<Label Grid.Row="5" Grid.Column="1" x:Name="tgrouphelp" XAlign="Start" YAlign="Center" FontSize="Micro" FontAttributes="Italic" Text="Ex: T-10" TextColor="Black" />
+				<Picker Grid.Row="6" Grid.Column="1" x:Name="day" Title="Day">
+					<Picker.Items>
+						<x:String>Saturday</x:String>
+						<x:String>Sunday</x:String>
+						<x:String>Monday</x:String>
+						<x:String>Tuesday</x:String>
+						<x:String>Wednesday</x:String>
+						<x:String>Thursday</x:String>
+					</Picker.Items>
+				</Picker>
+				<Picker Grid.Row="7" Grid.Column="1" x:Name="slot" Title="Slot">
+					<Picker.Items>
+						<x:String>1st</x:String>
+						<x:String>2nd</x:String>
+						<x:String>3rd</x:String>
+						<x:String>4th</x:String>
+						<x:String>5th</x:String>
+					</Picker.Items>
+				</Picker>
+				<Label Grid.Row="8" Grid.Column="1" x:Name="filehelp" XAlign="Start" YAlign="Center" FontSize="Micro" FontAttributes="Italic" TextColor="Black" Text="Visit http://localhost/gucattendance to upload your students list and enter your file number below." />
+				<Entry Grid.Row="9" Grid.Column="1" x:Name="filename" Placeholder="File Number">
+					<Entry.Behaviors>
+						<local:NotEmptyValidatorBehavior x:Name="filenameValidator" />
+					</Entry.Behaviors>
+				</Entry>
+				<Entry Grid.Row="10" Grid.Column="1" x:Name="room" Placeholder="Room">
+					<Entry.Behaviors>
+						<local:RoomValidatorBehavior x:Name="roomValidator" />
+					</Entry.Behaviors>
+				</Entry>
+				<Label Grid.Row="11" Grid.Column="1" x:Name="roomhelp" XAlign="Start" YAlign="Center" FontSize="Micro" FontAttributes="Italic" TextColor="Black" Text="Ex: C7.201" />
+			</Grid>
+			<Button x:Name="addclass" Text="Add Class" IsEnabled="false" TextColor="#3366cc" FontAttributes="Bold" />
+		</StackLayout>
+	</ScrollView>
+</ContentPage>

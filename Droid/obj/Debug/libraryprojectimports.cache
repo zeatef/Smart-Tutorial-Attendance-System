@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/SQLite.Net.Platform.XamarinAndroid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Microsoft.WindowsAzure.Mobile.Ext/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Splat/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.Support.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.UserDialogs/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/AndHUD/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Lotz.Xam.Messaging/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/BouncyCastle/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MimeKit/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MailKit/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Plugin.Connectivity/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Sockets.Plugin/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Platform.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Forms.Droid/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/SQLite.Net.Platform.XamarinAndroid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Microsoft.WindowsAzure.Mobile.Ext/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Splat/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.Support.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.UserDialogs/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/AndHUD/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Lotz.Xam.Messaging/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/BouncyCastle/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MimeKit/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MailKit/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Plugin.Connectivity/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Sockets.Plugin/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Platform.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Forms.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Microsoft.WindowsAzure.Mobile.Ext.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Splat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.Support.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Acr.UserDialogs.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/AndHUD.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Lotz.Xam.Messaging.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/BouncyCastle.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MimeKit.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/MailKit.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Sockets.Plugin.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/__library_projects__/XLabs.Forms.Droid.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

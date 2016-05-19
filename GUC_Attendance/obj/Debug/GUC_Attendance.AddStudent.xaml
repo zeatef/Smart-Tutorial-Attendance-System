@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GUC_Attendance;assembly=GUC_Attendance" x:Class="GUC_Attendance.AddStudent" Title="Add Student">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="baseStyle" TargetType="Label">
+				<Setter Property="FontSize" Value="Micro" />
+				<Setter Property="FontAttributes" Value="Italic" />
+			</Style>
+			<local:BooleanToObjectConverter x:Key="boolToStyleEmpty" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="This field cannot be empty." />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+			<local:BooleanToObjectConverter x:Key="boolToStyleID" x:TypeArguments="Style">
+				<local:BooleanToObjectConverter.FalseObject>
+					<Style TargetType="Label" BasedOn="{StaticResource baseStyle}">
+						<Setter Property="TextColor" Value="#F44336" />
+						<Setter Property="Text" Value="Ex: 28-5365" />
+					</Style>
+				</local:BooleanToObjectConverter.FalseObject>
+			</local:BooleanToObjectConverter>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<StackLayout Spacing="10" Padding="20" BackgroundColor="#dbedf2">
+		<Grid x:Name="grid" RowSpacing="10" Padding="0">
+			<Grid.RowDefinitions>
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Label Grid.Row="0" Grid.Column="1" x:Name="zodiac" XAlign="Start" YAlign="Center" Text="Please fill all of the fields below:" TextColor="Black" />
+			<Entry Grid.Row="1" Grid.Column="1" x:Name="fname" Placeholder="First Name">
+				<Entry.Behaviors>
+					<local:NotEmptyValidatorBehavior x:Name="fnameValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Entry Grid.Row="2" Grid.Column="1" x:Name="lname" Placeholder="Last Name">
+				<Entry.Behaviors>
+					<local:NotEmptyValidatorBehavior x:Name="lnameValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Entry Grid.Row="3" Grid.Column="1" x:Name="id" Placeholder="ID">
+				<Entry.Behaviors>
+					<local:IDValidatorBehavior x:Name="idValidator" />
+				</Entry.Behaviors>
+			</Entry>
+			<Label Grid.Row="4" Grid.Column="1" x:Name="idSuccessErrorText" XAlign="Start" YAlign="Center" Style="{Binding Source={x:Reference idValidator}, &#xA;										                Path=IsValid, &#xA;										                Converter={StaticResource boolToStyleID}}" />
+		</Grid>
+		<Button x:Name="addstudent" Text="Add Student" IsEnabled="false" TextColor="#3366cc" FontAttributes="Bold" />
+	</StackLayout>
+</ContentPage>

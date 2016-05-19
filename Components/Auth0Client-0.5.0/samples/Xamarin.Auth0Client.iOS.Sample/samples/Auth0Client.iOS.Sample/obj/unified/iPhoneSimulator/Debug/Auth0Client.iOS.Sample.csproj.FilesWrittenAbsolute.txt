@@ -1,0 +1,9 @@
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/optimized/
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Auth0ClientiOSSample.exe.mdb
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Auth0ClientiOSSample.exe
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/Auth0ClientiOSSample.exe
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/obj/unified/iPhoneSimulator/Debug/Auth0ClientiOSSample.exe.mdb
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Auth0Client.iOS.dll
+/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Components/Auth0Client-0.5.0/samples/Xamarin.Auth0Client.iOS.Sample/samples/Auth0Client.iOS.Sample/bin/unified/iPhoneSimulator/Debug/Xamarin.Auth.iOS.dll

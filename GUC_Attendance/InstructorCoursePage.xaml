@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GUC_Attendance.InstructorCoursePage">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<OnPlatform x:Key="Priority1" x:TypeArguments="x:Int32" iOS="0" Android="0" WinPhone="2" />
+			<OnPlatform x:Key="Priority2" x:TypeArguments="x:Int32" iOS="1" Android="1" WinPhone="1" />
+			<OnPlatform x:Key="Priority3" x:TypeArguments="x:Int32" iOS="2" Android="2" WinPhone="0" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Name="Logout" Activated="Logout" Order="Primary" Priority="0">
+		</ToolbarItem>
+		<ToolbarItem Name="Add Student" Activated="OnClickAddStudent" Order="Secondary" Priority="{StaticResource Priority1}">
+		</ToolbarItem>
+		<ToolbarItem Name="Remove Student" Activated="OnClickDeleteStudent" Order="Secondary" Priority="{StaticResource Priority2}">
+		</ToolbarItem>
+		<ToolbarItem Name="Delete Class" Activated="OnClickDeleteClass" Order="Secondary" Priority="{StaticResource Priority3}">
+		</ToolbarItem>
+	</ContentPage.ToolbarItems>
+	<ContentPage.Content>
+		<StackLayout x:Name="stack" Spacing="10" Padding="20" BackgroundColor="#dbedf2">
+			<Label x:Name="title" FontAttributes="Bold" XAlign="Center" TextColor="Black" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

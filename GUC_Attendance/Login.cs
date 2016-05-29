@@ -99,12 +99,12 @@ namespace GUC_Attendance
 		{
 			base.OnAppearing ();
 			UserDialogs.Instance.HideLoading ();
-			UserDialogs.Instance.ShowLoading ("Updating Weeks");
-			await sqlapimanager.UpdateSlotLamia ();
-			await sqlapimanager.UpdateSlotLamia2 ();
-			await sqlapimanager.UpdateSlotLamia3 ();
-
-			UserDialogs.Instance.HideLoading ();
+//			UserDialogs.Instance.ShowLoading ("Updating Weeks");
+//			await sqlapimanager.UpdateSlotLamia ();
+//			await sqlapimanager.UpdateSlotLamia2 ();
+//			await sqlapimanager.UpdateSlotLamia3 ();
+//
+//			UserDialogs.Instance.HideLoading ();
 		}
 
 		public async void OnLoginClicked (object sender, EventArgs e)

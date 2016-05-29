@@ -1,10 +1,10 @@
 # Version: 9.6.1.9 (cycle6-xi-c6sr3: 5f11db8)
-# [first argument, ignore] # /Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/mtouch.exe
+# [first argument, ignore] # /Users/apple/Desktop/Smart-Tutorial-Attendance-System/iOS/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/bin/mtouch \
 	--cache \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/obj/iPhoneSimulator/Debug/mtouch-cache" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/bin/iPhoneSimulator/Debug/GUC_Attendance.iOS.app" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/iOS/bin/iPhoneSimulator/Debug/GUC_Attendance.iOS.app \
 	--executable \
 	GUC_Attendance.iOS \
 	--fastdev \
@@ -19,7 +19,7 @@
 	--new-refcount \
 	--abi=i386 \
 	--symbollist \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -28,85 +28,85 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Data.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/GUC_Attendance/bin/Debug/GUC_Attendance.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/GUC_Attendance/bin/Debug/GUC_Attendance.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -202,81 +202,81 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLite.Net-PCL.3.0.5/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/SQLiteNetExtensions.1.3.0/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Primitives.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Net.Http.2.2.28/lib/portable-net45+win8/System.Net.Http.Extensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/WindowsAzure.MobileServices.1.3.2/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.Support.1.1.1/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Acr.UserDialogs.4.3.4/lib/Xamarin.iOS10/BTProgressHUD.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.Abstractions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugins.Messaging.3.0.0/lib/Xamarin.iOS10/Lotz.Xam.Messaging.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/BouncyCastle.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MimeKit.1.2.22/lib/Xamarin.iOS10/MimeKit.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/MailKit.1.2.20/lib/Xamarin.iOS10/MailKit.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/CsvHelper.2.13.5.0/lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xamarin.Forms.1.5.1.6471/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.IoC.2.0.5782/lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10/XLabs.Ioc.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/ExifLib.PCL.1.0.1/lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Platform.2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Serialization.2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.iOS.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/XLabs.Forms.2.0.5782/lib/Xamarin.iOS10/XLabs.Forms.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/Xam.Plugin.Connectivity.2.1.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/packages/rda.SocketsForPCL.1.2.2/lib/Xamarin.iOS10/Sockets.Plugin.Abstractions.dll \
 	-r \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/GUC_Attendance/bin/Debug/GUC_Attendance.dll" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/GUC_Attendance/bin/Debug/GUC_Attendance.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	"/Users/apple/Documents/DB using Xamarin/GUC_Attendance/iOS/bin/iPhoneSimulator/Debug//GUC_Attendance.iOS.exe" \
+	/Users/apple/Desktop/Smart-Tutorial-Attendance-System/iOS/bin/iPhoneSimulator/Debug//GUC_Attendance.iOS.exe \

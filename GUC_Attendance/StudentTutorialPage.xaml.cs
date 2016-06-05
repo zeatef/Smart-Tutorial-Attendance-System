@@ -110,7 +110,7 @@ namespace GUC_Attendance
 				} 
 			}
 
-			if (!running) {
+			if (running) {
 				Button checkbox = new Button () {
 					Text = "Mark Attendance"
 				};

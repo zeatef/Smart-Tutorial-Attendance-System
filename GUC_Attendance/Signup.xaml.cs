@@ -55,7 +55,10 @@ namespace GUC_Attendance
 
 			sqlapimanager.fetchDataFromAPItoSQL ();
 
-			
+			if (Device.OS == TargetPlatform.Android) {
+				verify.TextColor = Color.White;
+				signup.TextColor = Color.White;
+			}
 //			fname.Text = "Lamia";
 //			lname.Text = "El-Badrawy";
 //			instructoremail.Text = "lamia.elbadrawy@guc.edu.eg";
@@ -242,8 +245,8 @@ namespace GUC_Attendance
 		{
 			getReturnedFields (position.SelectedIndex);
 
-//			verificationcode = rnd.Next (111111, 999999);
-			verificationcode = 11;
+			verificationcode = rnd.Next (111111, 999999);
+//			verificationcode = 11;
 
 			DependencyService.Get<ISendVerificationEmail> ().sendEmail (fnameentry, lnameentry, emailentry, verificationcode);
 
@@ -265,6 +268,10 @@ namespace GUC_Attendance
 				if (returnedcode.Equals (vc)) {
 					verify.Text = "Email Verified Successfully";
 					verify.TextColor = Color.Green;
+					if (Device.OS == TargetPlatform.Android) {
+						verify.BackgroundColor = Color.FromHex ("006622");
+						verify.TextColor = Color.White;
+					}
 					verify.Command = null;
 					if (positionentry.Equals ("Instructor")) {
 						m = new Member (positionentry, fnameentry, lnameentry, emailentry, passwordentry);
@@ -291,6 +298,10 @@ namespace GUC_Attendance
 				if (returnedcode.Equals (vc)) {
 					verify.Text = "Email Verified Successfully";
 					verify.TextColor = Color.Green;
+					if (Device.OS == TargetPlatform.Android) {
+						verify.BackgroundColor = Color.FromHex ("006622");
+						verify.TextColor = Color.White;
+					}
 					verify.Command = null;
 					if (positionentry.Equals ("Instructor")) {
 						m = new Member (positionentry, fnameentry, lnameentry, emailentry, passwordentry);

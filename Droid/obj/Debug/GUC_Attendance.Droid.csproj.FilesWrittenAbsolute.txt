@@ -64,3 +64,64 @@
 /Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/bin/Debug/GUC Attendance.dll
 /Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/GUC Attendance.dll
 /Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/GUC Attendance.dll.mdb
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/GUC Attendance.dll.mdb
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/GUC Attendance.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/com.zeatef.guc_attendance.apk
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/android/bin/com.zeatef.guc_attendance.apk
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/res/drawable-hdpi/icon.png
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/res/drawable-xhdpi/icon.png
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/res/drawable/background.jpg
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/res/drawable/icon.png
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/R.cs.flag
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/com.zeatef.guc_attendance-Signed.apk
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/uploadflags.txt
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/GUC Attendance.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/GUC Attendance.dll.mdb
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/SQLite.Net.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/SQLite.Net.Platform.XamarinAndroid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/SQLiteNetExtensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/System.Net.Http.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/System.Net.Http.Extensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Microsoft.WindowsAzure.Mobile.Ext.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Splat.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Acr.Support.Android.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Acr.UserDialogs.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Acr.UserDialogs.Interface.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/AndHUD.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Lotz.Xam.Messaging.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Lotz.Xam.Messaging.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/BouncyCastle.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/MimeKit.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/MailKit.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/CsvHelper.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/ExifLib.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Plugin.Connectivity.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Sockets.Plugin.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Sockets.Plugin.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/FormsViewGroup.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Forms.Core.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Core.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.IOC.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Serialization.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Platform.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Platform.Droid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Forms.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/XLabs.Forms.Droid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/GUC_Attendance.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/bin/Debug/GUC_Attendance.dll.mdb

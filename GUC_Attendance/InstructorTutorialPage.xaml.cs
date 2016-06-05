@@ -11,6 +11,8 @@ using Acr.UserDialogs;
 using System.Threading.Tasks;
 using System.Threading;
 using Org.BouncyCastle.Asn1.X509;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 
 namespace GUC_Attendance
@@ -24,9 +26,11 @@ namespace GUC_Attendance
 		Button record;
 		Button stoprecording;
 		Button uploadattendance;
+		IEnumerable<WeeklyAttendance> itemssource;
 		bool recording;
 		enroll_view e;
 		int w_no;
+		Task thread;
 
 		public InstructorTutorialPage (SQLDatabase db, enroll_view e, int w_no, string datenow)
 		{
@@ -40,10 +44,12 @@ namespace GUC_Attendance
 
 			_data.BackgroundColor = Color.FromHex ("#dbedf2");
 			_data.HasUnevenRows = true;
-			_data.ItemsSource = _database.GetTodayAttendance (e, w_no);
+			itemssource = _database.GetTodayAttendance (e, w_no);
+			_data.ItemsSource = itemssource;
 			_data.ItemTemplate = new DataTemplate (typeof(InstructorTutorialCustomCell));
 			_data.IsPullToRefreshEnabled = true;
 			_data.RefreshCommand = new Command (this.Refresh);
+			_data.BindingContextChanged += this.RefreshAutomatically;
 			Label today = new Label { Text = datenow, XAlign = TextAlignment.Center, TextColor = Color.Black };
 			Label week = new Label {
 				Text = "Week " + w_no,
@@ -90,11 +96,22 @@ namespace GUC_Attendance
 			_data.EndRefresh ();
 		}
 
+		public async void RefreshAutomatically (object sender, EventArgs e)
+		{
+//			ObservableCollection<WeeklyAttendance> check = new ObservableCollection<WeeklyAttendance> ();
+//			IEnumerable<WeeklyAttendance> dbcheck = _database.GetTodayAttendance (this.e, w_no);
+//			foreach (WeeklyAttendance a in dbcheck) {
+//				check.Add (a);
+//			}
+			_data.ItemsSource = _database.GetTodayAttendance (this.e, w_no);
+		}
+
 		public async void OnRecordClicked (object sender, EventArgs e)
 		{
 			if (!DependencyService.Get<IGetConnectionSSID> ().getSSID ().Equals ("GUCAttendance_" + room)) {
 				await UserDialogs.Instance.AlertAsync ("You must be connected to the hotspot of the tutorials's room.", "");
 			} else {
+				int duration = 0;
 				recording = true;
 				record.Text = "Recording...";
 				record.IsEnabled = false;
@@ -105,7 +122,7 @@ namespace GUC_Attendance
 				stack.Children.Add (_data);
 				await Task.Delay (1000);
 				int ip = DependencyService.Get<IGetConnectionSSID> ().getIP ();
-				DependencyService.Get<ISocketProgramming> ().SetServerSocket (_database, this.e, w_no, ip);
+				DependencyService.Get<ISocketProgramming> ().SetServerSocket (_database, this.e, w_no, ip, itemssource);
 			}
 		}
 

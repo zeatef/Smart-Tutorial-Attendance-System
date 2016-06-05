@@ -1,17 +1,22 @@
-﻿<Properties StartupItem="iOS/GUC_Attendance.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.ZH8005BGD5" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GUC_Attendance/InstructorTutorialPage.xaml.cs">
+﻿<Properties StartupItem="Droid/GUC_Attendance.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Server_Android.cs">
     <Files>
-      <File FileName="GUC_Attendance/InstructorTutorialPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="GUC_Attendance/InstructorTutorialPage.xaml.cs" Line="125" Column="50" />
       <File FileName="GUC_Attendance/InstructorTutorialPage2.xaml.cs" Line="1" Column="1" />
       <File FileName="GUC_Attendance/StudentCoursePage.xaml.cs" Line="1" Column="1" />
       <File FileName="GUC_Attendance/TodayInstructor.xaml.cs" Line="1" Column="1" />
       <File FileName="GUC_Attendance/TodayStudent.xaml.cs" Line="1" Column="1" />
-      <File FileName="GUC_Attendance/Login.cs" Line="1" Column="1" />
+      <File FileName="GUC_Attendance/Login.cs" Line="57" Column="5" />
       <File FileName="iOS/Main.cs" Line="1" Column="1" />
       <File FileName="Droid/Client_Android.cs" Line="1" Column="1" />
-      <File FileName="Droid/Server_Android.cs" Line="1" Column="1" />
+      <File FileName="Droid/Server_Android.cs" Line="92" Column="1" />
       <File FileName="GUC_Attendance/Home_Student.xaml.cs" Line="1" Column="1" />
+      <File FileName="GUC_Attendance/InstructorCoursePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="GUC_Attendance/ISocketProgramming.cs" Line="9" Column="82" />
+      <File FileName="Droid/SocketProgramming_Android.cs" Line="24" Column="56" />
+      <File FileName="GUC_Attendance/Signup.xaml.cs" Line="272" Column="54" />
+      <File FileName="GUC_Attendance/Signup.xaml" Line="117" Column="91" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

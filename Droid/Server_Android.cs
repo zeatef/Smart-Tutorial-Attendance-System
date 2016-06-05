@@ -45,16 +45,18 @@ namespace GUC_Attendance.Droid
 		List<Thread> threadslist = new List<Thread> ();
 		Thread calcualateduration;
 		bool online;
-		int duration = 0;
+		int duration = 59;
 		List<TcpClient> clientslist = new List<TcpClient> ();
 		Dictionary<string, int> attendancelist = new Dictionary<string, int> ();
+		IEnumerable<WeeklyAttendance> itemssource;
 
-		public Server_Android (SQLDatabase db, enroll_view e, int w_no, IPAddress ipaddress)
+		public Server_Android (SQLDatabase db, enroll_view e, int w_no, IPAddress ipaddress, IEnumerable<WeeklyAttendance> itemssource)
 		{
 			this._database = db;
 			this.e = e;
 			this.w_no = w_no;
 			this.ipaddress = ipaddress;
+			this.itemssource = itemssource;
 			Debug.WriteLine (ipaddress.ToString ());
 			IPHostEntry hostEntry = Dns.GetHostEntry (ipaddress);
 			string hostName = hostEntry.HostName;
@@ -68,12 +70,13 @@ namespace GUC_Attendance.Droid
 				server = new TcpListener (endpoint);
 				server.Start ();
 				online = true;
+
 				calcualateduration = new Thread (
 					() => {
 						while (online) {
 							duration++;
 							Debug.WriteLine ("Duration: " + duration);
-							Thread.Sleep (10000);
+							Thread.Sleep (60000);
 						}
 					});
 				calcualateduration.Start ();
@@ -82,22 +85,6 @@ namespace GUC_Attendance.Droid
 					this.AcceptClients ();
 				});
 				acceptclients.Start ();
-//				Debug.WriteLine ("Updating Attendance (Less than 75%)");
-//				_database.UpdateTodayAttendancePartially (e, w_no, "28-1779");
-//				_database.UpdateTodayAttendancePartially (e, w_no, "28-4010");
-//				Debug.WriteLine ("Updating Attendance (Fully Attended)");
-//				_database.UpdateTodayAttendance (e, w_no, "28-5365");
-//				_database.UpdateTodayAttendance (e, w_no, "28-4471");
-//				_database.UpdateTodayAttendance (e, w_no, "28-5430");
-//
-//				Debug.WriteLine ("Updating Attendance (Late and less than 75%)");
-//				_database.UpdateTodayAttendancePartiallyLate (e, w_no, "28-11797");
-//				_database.UpdateTodayAttendancePartiallyLate (e, w_no, "28-4350");
-//				_database.UpdateTodayAttendancePartiallyLate (e, w_no, "28-0741");
-//
-//				_database.UpdateTodayAttendanceLate (e, w_no, "22-0997");
-//				_database.UpdateTodayAttendanceLate (e, w_no, "28-1256");
-
 			} catch (Exception e) {
 				e.Message.ToString ();
 			}

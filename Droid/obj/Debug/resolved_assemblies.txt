@@ -1,114 +1,114 @@
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/GUC Attendance.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Xml.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Mono.Android.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/SQLite.Net.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/SQLite.Net.Platform.XamarinAndroid.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/SQLiteNetExtensions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.Http.Primitives.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.Http.Extensions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.Http.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Microsoft.WindowsAzure.Mobile.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Microsoft.WindowsAzure.Mobile.Ext.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Splat.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Acr.Support.Android.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Acr.UserDialogs.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Acr.UserDialogs.Interface.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/AndHUD.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Lotz.Xam.Messaging.Abstractions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Lotz.Xam.Messaging.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Data.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/BouncyCastle.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/MimeKit.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/MailKit.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/CsvHelper.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Newtonsoft.Json.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/ExifLib.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Mono.Android.Export.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Plugin.Connectivity.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Plugin.Connectivity.Abstractions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Sockets.Plugin.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Sockets.Plugin.Abstractions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Vector.Drawable.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Animated.Vector.Drawable.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.RecyclerView.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Design.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.CardView.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/FormsViewGroup.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Forms.Core.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Core.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.IOC.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Serialization.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Platform.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Platform.Droid.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Forms.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/XLabs.Forms.Droid.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Core.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/GUC_Attendance.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/mscorlib.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Collections.Concurrent.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Collections.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ComponentModel.Annotations.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ComponentModel.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Diagnostics.Contracts.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Diagnostics.Debug.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Diagnostics.Tools.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Diagnostics.Tracing.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Dynamic.Runtime.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Globalization.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.IO.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Linq.Expressions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Linq.Parallel.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Linq.Queryable.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Linq.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.NetworkInformation.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.Primitives.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Net.Requests.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ObjectModel.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.Emit.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.Extensions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.Primitives.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Reflection.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Resources.ResourceManager.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Extensions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.InteropServices.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Numerics.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Security.Principal.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ServiceModel.Http.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ServiceModel.Primitives.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ServiceModel.Security.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Text.Encoding.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Text.RegularExpressions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Threading.Tasks.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Threading.Timer.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Threading.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Xml.ReaderWriter.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Xml.XDocument.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Xml.XmlSerializer.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Runtime.Serialization.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ServiceModel.Internals.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Numerics.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Transactions.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Mono.Data.Tds.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Mono.Security.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/Mono.Data.Sqlite.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ComponentModel.Composition.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.ServiceModel.dll
-/Users/apple/Documents/DB using Xamarin/GUC_Attendance/Droid/obj/Debug/assemblies/System.Xml.Linq.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/GUC Attendance.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Xml.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Mono.Android.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/SQLite.Net.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/SQLite.Net.Platform.XamarinAndroid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/SQLiteNetExtensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.Http.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.Http.Extensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.Http.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Microsoft.WindowsAzure.Mobile.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Microsoft.WindowsAzure.Mobile.Ext.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Splat.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Acr.Support.Android.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Acr.UserDialogs.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Acr.UserDialogs.Interface.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/AndHUD.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Lotz.Xam.Messaging.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Lotz.Xam.Messaging.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Data.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/BouncyCastle.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/MimeKit.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/MailKit.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/CsvHelper.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Newtonsoft.Json.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/ExifLib.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Mono.Android.Export.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Plugin.Connectivity.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Plugin.Connectivity.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Sockets.Plugin.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Sockets.Plugin.Abstractions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v4.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.Design.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.CardView.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/FormsViewGroup.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Forms.Core.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Core.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.IOC.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Serialization.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Platform.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Platform.Droid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Forms.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/XLabs.Forms.Droid.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Core.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/GUC_Attendance.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/mscorlib.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Collections.Concurrent.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Collections.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ComponentModel.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Diagnostics.Debug.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Diagnostics.Tools.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Diagnostics.Tracing.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Dynamic.Runtime.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Globalization.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.IO.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Linq.Expressions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Linq.Parallel.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Linq.Queryable.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Linq.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.NetworkInformation.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Net.Requests.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ObjectModel.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.Emit.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.Extensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Reflection.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Resources.ResourceManager.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Extensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.InteropServices.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Numerics.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Security.Principal.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ServiceModel.Http.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ServiceModel.Security.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Text.Encoding.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Text.RegularExpressions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Threading.Tasks.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Threading.Timer.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Threading.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Xml.XDocument.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Xml.XmlSerializer.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Runtime.Serialization.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ServiceModel.Internals.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Numerics.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Transactions.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Mono.Data.Tds.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Mono.Security.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/Mono.Data.Sqlite.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ComponentModel.Composition.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.ServiceModel.dll
+/Users/apple/Desktop/Smart-Tutorial-Attendance-System/Droid/obj/Debug/assemblies/System.Xml.Linq.dll

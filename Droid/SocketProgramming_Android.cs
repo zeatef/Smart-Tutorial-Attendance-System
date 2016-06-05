@@ -5,6 +5,7 @@ using GUC_Attendance.Droid;
 using System.Net;
 using System.Diagnostics;
 using GUC_Attendance.Models;
+using System.Collections.Generic;
 
 [assembly: Dependency (typeof(SocketProgramming_Android))]
 
@@ -16,11 +17,11 @@ namespace GUC_Attendance.Droid
 		Server_Android serverSocket;
 		Client_Android clientSocket;
 
-		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress)
+		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress, IEnumerable<WeeklyAttendance> itemssource)
 		{
 			Debug.WriteLine (ipaddress);
 			IPAddress ip = new IPAddress (ipaddress);
-			serverSocket = new Server_Android (db, e, w_no, ip);
+			serverSocket = new Server_Android (db, e, w_no, ip, itemssource);
 			serverSocket.StartServer ();
 		}
 

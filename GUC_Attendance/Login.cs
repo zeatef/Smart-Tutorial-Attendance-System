@@ -28,9 +28,8 @@ namespace GUC_Attendance
 		string emailentry;
 		string passwordentry;
 
-		Entry email = new Entry { Text = "lamia.elbadrawy@guc.edu.eg", Placeholder = "GUC Email" };
+		Entry email = new Entry { Placeholder = "GUC Email" };
 		Entry password = new Entry {
-			Text = "12345678",
 			Placeholder = "Password",
 			IsPassword = true
 		};

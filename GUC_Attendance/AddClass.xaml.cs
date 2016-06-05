@@ -37,6 +37,11 @@ namespace GUC_Attendance
 //			slot.SelectedIndex = 3;
 //			filename.Text = "1";
 //			room.Text = "C2.201";
+
+			if (Device.OS == TargetPlatform.Android) {
+				addclass.TextColor = Color.White;
+			}
+
 			this.SetDisplay ();
 		}
 

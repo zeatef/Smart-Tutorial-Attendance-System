@@ -55,10 +55,7 @@ namespace GUC_Attendance
 
 			sqlapimanager.fetchDataFromAPItoSQL ();
 
-			if (Device.OS == TargetPlatform.Android) {
-				verify.TextColor = Color.White;
-				signup.TextColor = Color.White;
-			}
+			d
 //			fname.Text = "Lamia";
 //			lname.Text = "El-Badrawy";
 //			instructoremail.Text = "lamia.elbadrawy@guc.edu.eg";

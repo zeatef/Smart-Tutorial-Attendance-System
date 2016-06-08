@@ -45,7 +45,7 @@ namespace GUC_Attendance.Droid
 		List<Thread> threadslist = new List<Thread> ();
 		Thread calcualateduration;
 		bool online;
-		int duration = 59;
+		int duration = 0;
 		List<TcpClient> clientslist = new List<TcpClient> ();
 		Dictionary<string, int> attendancelist = new Dictionary<string, int> ();
 		IEnumerable<WeeklyAttendance> itemssource;

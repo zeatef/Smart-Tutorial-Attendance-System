@@ -5,7 +5,7 @@ using GUC_Attendance.iOS;
 using System.Net;
 using System.Diagnostics;
 using GUC_Attendance.Models;
-
+using System.Collections.Generic;
 
 [assembly: Dependency (typeof(SocketProgramming_iOS))]
 
@@ -18,7 +18,7 @@ namespace GUC_Attendance.iOS
 		Server_iOS serverSocket;
 		Socket clientSocket;
 
-		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress)
+		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress, IEnumerable<WeeklyAttendance> itemssource)
 		{
 			Debug.WriteLine (ipaddress);
 			IPAddress ip = new IPAddress (ipaddress);

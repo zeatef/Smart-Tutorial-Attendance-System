@@ -17,11 +17,11 @@ namespace GUC_Attendance.Droid
 		Server_Android serverSocket;
 		Client_Android clientSocket;
 
-		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress, IEnumerable<WeeklyAttendance> itemssource)
+		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress)
 		{
 			Debug.WriteLine (ipaddress);
 			IPAddress ip = new IPAddress (ipaddress);
-			serverSocket = new Server_Android (db, e, w_no, ip, itemssource);
+			serverSocket = new Server_Android (db, e, w_no, ip);
 			serverSocket.StartServer ();
 		}
 

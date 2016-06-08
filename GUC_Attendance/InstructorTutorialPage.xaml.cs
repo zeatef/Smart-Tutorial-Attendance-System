@@ -115,7 +115,7 @@ namespace GUC_Attendance
 				stack.Children.Add (stoprecording);
 				stack.Children.Add (_data);
 				await Task.Delay (1000);
-				DependencyService.Get<ISocketProgramming> ().SetServerSocket (_database, this.e, w_no, ip, itemssource);
+				DependencyService.Get<ISocketProgramming> ().SetServerSocket (_database, this.e, w_no, ip);
 			}
 		}
 

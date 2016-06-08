@@ -18,7 +18,7 @@ namespace GUC_Attendance.iOS
 		Server_iOS serverSocket;
 		Socket clientSocket;
 
-		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress, IEnumerable<WeeklyAttendance> itemssource)
+		public void SetServerSocket (SQLDatabase db, enroll_view e, int w_no, int ipaddress)
 		{
 			Debug.WriteLine (ipaddress);
 			IPAddress ip = new IPAddress (ipaddress);

@@ -82,10 +82,6 @@ namespace GUC_Attendance
 				Command = new Command (() => Navigation.PushAsync (new Signup (sqldatabase))),
 				FontAttributes = FontAttributes.Bold
 			};
-//			DateTime now = DateTime.Now.ToLocalTime();
-//			Debug.WriteLine (now.Month.ToString ());
-//			string currentTime = (string.Format ("Current Time: {0}", now));
-//			Debug.WriteLine (currentTime);
 
 			Content = new StackLayout {
 				Spacing = 20,
@@ -98,12 +94,6 @@ namespace GUC_Attendance
 		{
 			base.OnAppearing ();
 			UserDialogs.Instance.HideLoading ();
-//			UserDialogs.Instance.ShowLoading ("Updating Weeks");
-//			await sqlapimanager.UpdateSlotLamia ();
-//			await sqlapimanager.UpdateSlotLamia2 ();
-//			await sqlapimanager.UpdateSlotLamia3 ();
-//
-//			UserDialogs.Instance.HideLoading ();
 		}
 
 		public async void OnLoginClicked (object sender, EventArgs e)
@@ -114,8 +104,13 @@ namespace GUC_Attendance
 					await sqlapimanager.fetchDataFromAPItoSQL ();
 					UserDialogs.Instance.HideLoading ();
 				} 
-				emailentry = email.Text.ToLower ();
-				passwordentry = password.Text;
+				if (email.Text != null) {
+					emailentry = email.Text.ToLower ();
+					passwordentry = password.Text;
+				} else {
+					emailentry = "";
+					passwordentry = "";
+				}
 				if (_database.MemberExists (emailentry)) {
 					if (_database.PasswordCorrect (emailentry, passwordentry)) {
 						if (_database.GetMemberPosition (emailentry).Equals ("Instructor")) {
@@ -136,29 +131,30 @@ namespace GUC_Attendance
 								_database.ClearCredentials ();
 							}
 							if (!DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-								UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. Please connect to the internet and Refresh to view updated data.", 6000);
+								UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. Please connect to the internet and Refresh to view updated data.", 8000);
 							}
 							Student stu = _database.GetStudentByEmail (emailentry);
 							await Navigation.PushAsync (new GUC_Attendance.MainPageStudent (_database, stu));
 						}
 					} else {
 						if (!DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-							UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. Please connect to the internet and try again.", 6000);
+							UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. If this is your first time to use the application on this device then please connect to the internet and try again.", 6000);
 						} 
 						await UserDialogs.Instance.AlertAsync ("Incorrect Password", "");
 					}
 				} else {
 					if (!DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-						UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. Please connect to the internet and try again.", 6000);
+						UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. If this is your first time to use the application on this device then please connect to the internet and try again.", 6000);
 					} 
 					await UserDialogs.Instance.AlertAsync ("Invalid Email Address", "");
 				}
-			} catch (Exception ee) {
+			} catch (System.Net.WebException ee) {
 				UserDialogs.Instance.HideLoading ();
 				await UserDialogs.Instance.AlertAsync ("Please Try Again", "Network Error");
-//				await UserDialogs.Instance.AlertAsync ("Please Try Again", ee.Message);
-
-			}
+			} catch (Exception ee) {
+				UserDialogs.Instance.HideLoading ();
+				await UserDialogs.Instance.AlertAsync ("An Error Has Occured, Please Try Again", "Error");
+			} 
 		}
 			
 	}

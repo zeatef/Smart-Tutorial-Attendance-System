@@ -48,15 +48,13 @@ namespace GUC_Attendance.Droid
 		int duration = 0;
 		List<TcpClient> clientslist = new List<TcpClient> ();
 		Dictionary<string, int> attendancelist = new Dictionary<string, int> ();
-		IEnumerable<WeeklyAttendance> itemssource;
 
-		public Server_Android (SQLDatabase db, enroll_view e, int w_no, IPAddress ipaddress, IEnumerable<WeeklyAttendance> itemssource)
+		public Server_Android (SQLDatabase db, enroll_view e, int w_no, IPAddress ipaddress)
 		{
 			this._database = db;
 			this.e = e;
 			this.w_no = w_no;
 			this.ipaddress = ipaddress;
-			this.itemssource = itemssource;
 			Debug.WriteLine (ipaddress.ToString ());
 			IPHostEntry hostEntry = Dns.GetHostEntry (ipaddress);
 			string hostName = hostEntry.HostName;

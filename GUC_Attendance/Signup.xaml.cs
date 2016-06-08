@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using GUC_Attendance.Models;
 using Newtonsoft.Json;
+using System.Net.NetworkInformation;
+using System.Net;
 
 
 
@@ -20,7 +22,6 @@ namespace GUC_Attendance
 	public partial class Signup : ContentPage
 	{
 
-		GUC_Attendance_Manager manager = new GUC_Attendance_Manager ();
 		SQL_API_Manager sqlapimanager;
 		SQLDatabase _database;
 
@@ -28,9 +29,6 @@ namespace GUC_Attendance
 		int verificationcode;
 		string returnedcode;
 		Random rnd = new Random ();
-
-
-
 
 
 		//Fields related to response from the user entries.
@@ -53,20 +51,12 @@ namespace GUC_Attendance
 			_database = sqldatabase;
 			InitializeComponent ();
 
-			sqlapimanager.fetchDataFromAPItoSQL ();
-
 			if (Device.OS == TargetPlatform.Android) {
 				verify.TextColor = Color.White;
 				signup.TextColor = Color.White;
 			}
-//			fname.Text = "Lamia";
-//			lname.Text = "El-Badrawy";
-//			instructoremail.Text = "lamia.elbadrawy@guc.edu.eg";
-//			password.Text = "123456781";
 
 			this.SetDisplay ();
-
-
 			signup.Clicked += OnSignupClicked;
 		}
 
@@ -246,7 +236,6 @@ namespace GUC_Attendance
 			getReturnedFields (position.SelectedIndex);
 
 			verificationcode = rnd.Next (111111, 999999);
-//			verificationcode = 11;
 
 			DependencyService.Get<ISendVerificationEmail> ().sendEmail (fnameentry, lnameentry, emailentry, verificationcode);
 
@@ -321,7 +310,9 @@ namespace GUC_Attendance
 				if (sqlapimanager.InstructorExists (emailentry)) {
 					UserDialogs.Instance.Alert ("The email address you have entered is already assigned to an account, please sign in using your email address and password.");
 				} else {
+					UserDialogs.Instance.ShowLoading ("Please Wait...");
 					await sqlapimanager.AddMember (m);
+					UserDialogs.Instance.HideLoading ();
 					Instructor ins = _database.GetInstructorByEmail (emailentry);
 					await Navigation.PushAsync (new GUC_Attendance.MainPageInstructor (_database, ins));
 				}	
@@ -330,13 +321,17 @@ namespace GUC_Attendance
 					if (sqlapimanager.StudentAlreadySignedUp (identry)) {
 						UserDialogs.Instance.Alert ("The email address you have entered is already assigned to an account, please sign in using your email address and password.");
 					} else {
-						sqlapimanager.UpdateExistingStudent (m);
-						await this.SyncData ();
+						UserDialogs.Instance.ShowLoading ("Please Wait...");
+						await sqlapimanager.UpdateExistingStudent (m);
+						UserDialogs.Instance.HideLoading ();
+
 						Student stu = _database.GetStudentByEmail (emailentry);
 						await Navigation.PushAsync (new GUC_Attendance.MainPageStudent (_database, stu));
 					}
 				} else {
+					UserDialogs.Instance.ShowLoading ("Please Wait...");
 					await sqlapimanager.AddMember (m);
+					UserDialogs.Instance.HideLoading ();
 					Student stu = _database.GetStudentByEmail (emailentry);
 					await Navigation.PushAsync (new GUC_Attendance.MainPageStudent (_database, stu));
 				}
@@ -345,10 +340,30 @@ namespace GUC_Attendance
 		}
 
 		public async Task SyncData ()
-		{
-			UserDialogs.Instance.ShowLoading ("Please Wait...");
+		{ 
+			UserDialogs.Instance.ShowLoading ("Updating Your Application's Database, Please Wait...");
 			await sqlapimanager.fetchDataFromAPItoSQL ();
 			UserDialogs.Instance.HideLoading ();
+		}
+
+		protected override async void OnAppearing ()
+		{
+			base.OnAppearing ();
+			try {
+				UserDialogs.Instance.ShowLoading ("Updating Your Application's Database, Please Wait...");
+				await sqlapimanager.fetchDataFromAPItoSQL ();
+				UserDialogs.Instance.HideLoading ();
+			} catch (System.Net.WebException) {
+				UserDialogs.Instance.HideLoading ();
+				UserDialogs.Instance.Alert ("Slow Internet Connection - Please Try Again");
+				await Navigation.PopAsync ();
+			} catch (Exception) {
+				UserDialogs.Instance.HideLoading ();
+				UserDialogs.Instance.Alert ("An Error Has Occured - Please Try Again");
+				await Navigation.PopAsync ();
+			}
+
+
 		}
 	}
 }

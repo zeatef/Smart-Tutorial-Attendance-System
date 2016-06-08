@@ -144,10 +144,10 @@ namespace GUC_Attendance
 				UserDialogs.Instance.SuccessToast ("Attendance Uploaded Successfully");
 				await Navigation.PopAsync ();
 
-			} catch (System.Net.WebException ee) {
+			} catch (System.Net.WebException) {
 				UserDialogs.Instance.HideLoading ();
 				UserDialogs.Instance.Alert ("Slow Internet Connection - Please Try Again");
-			} catch (Exception exc) {
+			} catch (Exception) {
 				UserDialogs.Instance.HideLoading ();
 				UserDialogs.Instance.Alert ("An Error Has Occured - Please Try Again");
 			}

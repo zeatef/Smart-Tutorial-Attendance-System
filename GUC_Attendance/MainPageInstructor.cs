@@ -8,14 +8,12 @@ namespace GUC_Attendance
 	public class MainPageInstructor : TabbedPage
 	{
 		private SQLDatabase _database;
-		SQL_API_Manager sqlapimanager;
 		Instructor user;
 
 		public MainPageInstructor (SQLDatabase database, Instructor ins)
 		{
 			this.user = ins;
 			this._database = database;
-			sqlapimanager = new SQL_API_Manager (_database);
 			NavigationPage.SetHasBackButton (this, false);
 
 			this.Title = "Home";
@@ -30,7 +28,6 @@ namespace GUC_Attendance
 
 			Children.Add (today);
 			Children.Add (mycourses);
-
 		}
 	}
 }

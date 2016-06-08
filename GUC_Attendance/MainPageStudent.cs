@@ -8,14 +8,12 @@ namespace GUC_Attendance
 	public class MainPageStudent : TabbedPage
 	{
 		private SQLDatabase _database;
-		SQL_API_Manager sqlapimanager;
 		Student user;
 
 		public MainPageStudent (SQLDatabase database, Student stu)
 		{
 			this.user = stu;
 			this._database = database;
-			sqlapimanager = new SQL_API_Manager (_database);
 			NavigationPage.SetHasBackButton (this, false);
 
 			this.Title = "Home";

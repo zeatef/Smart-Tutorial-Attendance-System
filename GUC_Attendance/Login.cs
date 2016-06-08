@@ -79,9 +79,10 @@ namespace GUC_Attendance
 			};
 			Button registerbutton = new Button {
 				Text = "Create Account",
-				Command = new Command (() => Navigation.PushAsync (new Signup (sqldatabase))),
 				FontAttributes = FontAttributes.Bold
 			};
+
+			registerbutton.Clicked += OnRegisterClicked;
 
 			Content = new StackLayout {
 				Spacing = 20,
@@ -90,21 +91,31 @@ namespace GUC_Attendance
 			};
 		}
 
-		protected async override void OnAppearing ()
+		protected override void OnAppearing ()
 		{
 			base.OnAppearing ();
 			UserDialogs.Instance.HideLoading ();
 		}
 
+		public async void OnRegisterClicked (object sender, EventArgs e)
+		{
+			if (DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
+				Navigation.PushAsync (new Signup (_database));
+			} else {
+				UserDialogs.Instance.InfoToast ("No Internet Connection", "You are not connected to the internet. Please connect to the internet and try again.", 6000);
+			}
+		}
+
+
 		public async void OnLoginClicked (object sender, EventArgs e)
 		{
 			try {
-				if (DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-					UserDialogs.Instance.ShowLoading ("Please Wait...");
-					await sqlapimanager.fetchDataFromAPItoSQL ();
-					UserDialogs.Instance.HideLoading ();
-				} 
 				if (email.Text != null) {
+					if (DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
+						UserDialogs.Instance.ShowLoading ("Please Wait...");
+						await sqlapimanager.fetchDataFromAPItoSQL ();
+						UserDialogs.Instance.HideLoading ();
+					} 
 					emailentry = email.Text.ToLower ();
 					passwordentry = password.Text;
 				} else {
@@ -156,6 +167,8 @@ namespace GUC_Attendance
 				await UserDialogs.Instance.AlertAsync ("An Error Has Occured, Please Try Again", "Error");
 			} 
 		}
+
+
 			
 	}
 }

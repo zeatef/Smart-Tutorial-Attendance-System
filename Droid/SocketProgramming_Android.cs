@@ -30,9 +30,9 @@ namespace GUC_Attendance.Droid
 			serverSocket.StopServer ();
 		}
 
-		public void SetClientSocket (string id)
+		public void SetClientSocket (string id, int ipaddress)
 		{
-			clientSocket = new Client_Android (id);
+			clientSocket = new Client_Android (id, ipaddress);
 		}
 	}
 }

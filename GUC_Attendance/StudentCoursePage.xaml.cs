@@ -122,9 +122,12 @@ namespace GUC_Attendance
 					UserDialogs.Instance.Alert ("Please connect to the internet and try refreshing again.");
 				}
 
-			} catch (System.Net.WebException ee) {
+			} catch (System.Net.WebException) {
 				_data.EndRefresh ();
 				UserDialogs.Instance.ErrorToast ("Network Error", "Please Try Again", 3000);
+			} catch (Exception) {
+				_data.EndRefresh ();
+				UserDialogs.Instance.ErrorToast ("Error", "Please Try Again", 3000);
 			}
 
 		}

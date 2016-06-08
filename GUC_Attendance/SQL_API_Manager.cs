@@ -22,9 +22,6 @@ namespace GUC_Attendance
 		public GUC_Attendance_Manager apimanager = new GUC_Attendance_Manager ();
 		SQLDatabase sqldatabase;
 
-
-
-
 		public SQL_API_Manager (SQLDatabase sqldatabase)
 		{
 			this.sqldatabase = sqldatabase;
@@ -828,7 +825,7 @@ namespace GUC_Attendance
 				foreach (WeeklyAttendance item in sqlweeklyattendance) {
 					await apimanager.weeklyattendanceAPITable.UpdateAsync (item);
 				}
-			} catch (Exception exc) {
+			} catch (Exception) {
 				UserDialogs.Instance.Alert ("Slow Internet Connection - Please Try Again");
 			}
 
@@ -852,53 +849,6 @@ namespace GUC_Attendance
 			await apimanager.DeleteWeeklyAttendance (eid);
 			return;
 		}
-
-		public async Task UpdateSlotLamia ()
-		{
-			var queryweeklyattendance = await apimanager.weeklyattendanceAPITable.Take (1).IncludeTotalCount ().ToEnumerableAsync (); 
-			long countweeklyattendance = ((ITotalCountProvider)queryweeklyattendance).TotalCount;
-			for (int i = 1; i <= countweeklyattendance; i += 100) {
-				Task<ObservableCollection<WeeklyAttendance>> apiweeklyattendance = apimanager.GetAllWeeklyAttendance (i);
-				ObservableCollection<WeeklyAttendance> oweeklyattendance = await apiweeklyattendance;
-				foreach (WeeklyAttendance a in oweeklyattendance) {
-					a.room = "C2.302";
-					await apimanager.weeklyattendanceAPITable.UpdateAsync (a);
-
-				}
-			}
-			return;
-		}
-
-		public async Task UpdateSlotLamia2 ()
-		{
-			var queryweeklyattendance = await apimanager.enroll_viewAPITable.Take (1).IncludeTotalCount ().ToEnumerableAsync (); 
-			long countweeklyattendance = ((ITotalCountProvider)queryweeklyattendance).TotalCount;
-			for (int i = 1; i <= countweeklyattendance; i += 100) {
-				Task<ObservableCollection<enroll_view>> apiweeklyattendance = apimanager.GetAllEnrollView (i);
-				ObservableCollection<enroll_view> oweeklyattendance = await apiweeklyattendance;
-				foreach (enroll_view a in oweeklyattendance) {
-					a.room = "C2.302";
-					await apimanager.enroll_viewAPITable.UpdateAsync (a);
-				}
-			}
-			return;
-		}
-
-		public async Task UpdateSlotLamia3 ()
-		{
-			var queryweeklyattendance = await apimanager.enrollAPITable.Take (1).IncludeTotalCount ().ToEnumerableAsync (); 
-			long countweeklyattendance = ((ITotalCountProvider)queryweeklyattendance).TotalCount;
-			for (int i = 1; i <= countweeklyattendance; i += 100) {
-				Task<ObservableCollection<enroll>> apiweeklyattendance = apimanager.GetAllEnroll (i);
-				ObservableCollection<enroll> oweeklyattendance = await apiweeklyattendance;
-				foreach (enroll a in oweeklyattendance) {
-					a.room = "C2.302";
-					await apimanager.enrollAPITable.UpdateAsync (a);
-				}
-			}
-			return;
-		}
-
 
 		public async Task UpdateWeeks ()
 		{

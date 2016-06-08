@@ -341,7 +341,7 @@ namespace GUC_Attendance
 
 		public async Task SyncData ()
 		{ 
-			UserDialogs.Instance.ShowLoading ("Updating Your Application's Database, Please Wait...");
+			UserDialogs.Instance.ShowLoading ("Updating Database, Please Wait...");
 			await sqlapimanager.fetchDataFromAPItoSQL ();
 			UserDialogs.Instance.HideLoading ();
 		}
@@ -350,7 +350,7 @@ namespace GUC_Attendance
 		{
 			base.OnAppearing ();
 			try {
-				UserDialogs.Instance.ShowLoading ("Updating Your Application's Database, Please Wait...");
+				UserDialogs.Instance.ShowLoading ("Updating Database, Please Wait...");
 				await sqlapimanager.fetchDataFromAPItoSQL ();
 				UserDialogs.Instance.HideLoading ();
 			} catch (System.Net.WebException) {

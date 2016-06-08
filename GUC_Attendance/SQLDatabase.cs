@@ -167,40 +167,7 @@ namespace GUC_Attendance
 			}
 
 		}
-
-		//		public void AddStudent(String id, String email) {
-		//			lock (locker) {
-		//				char[] splitters = { '.', '@' };
-		//				String[] splitted = email.Split (splitters);
-		//				char [] farray = splitted [0].ToCharArray();
-		//				String f = "" + farray[0];
-		//				f = f.ToUpper();
-		//				f = f + splitted [0].Substring (1);
-		//				char [] larray = splitted [1].ToCharArray();
-		//				String l = "" + larray[0];
-		//				l = l.ToUpper();
-		//				l = l + splitted [1].Substring (1);
-		//				var newStudent = new Student {
-		//					sid = id,
-		//					fname = f,
-		//					lname = l,
-		//					email = email
-		//				};
-		//
-		//				_connection.Insert (newStudent);
-		//			}
-		//
-		//		}
-		//
-		//		public void UpdateStudentEmail (String id, String email)
-		//		{
-		//			lock (locker) {
-		//				this.DeleteStudent (id);
-		//				this.AddStudent (id, email);
-		//			}
-		//		}
-
-
+			
 		//Methods on Table: Instructor
 		//****************************************************************************************************
 
@@ -658,10 +625,6 @@ namespace GUC_Attendance
 
 		}
 
-
-
-
-
 		//Other Methods
 		//****************************************************************************************************
 
@@ -761,28 +724,7 @@ namespace GUC_Attendance
 			}
 			return false;
 		}
-			
-		//		public String GetFirstName (String id)
-		//		{
-		//			lock (locker) {
-		//				Student student = this.GetStudent (id);
-		//				String email = student.email;
-		//				char[] splitters = { '.', '@' };
-		//				String[] splitted = email.Split (splitters);
-		//				return splitted [0];
-		//			}
-		//		}
 
-		//		public String GetLastLName (String id)
-		//		{
-		//			lock (locker) {
-		//				Student student = this.GetStudent (id);
-		//				String email = student.email;
-		//				char[] splitters = { '.', '@' };
-		//				String[] splitted = email.Split (splitters);
-		//				return splitted [1];
-		//			}
-		//		}
 
 		public void updateSlotNumber ()
 		{

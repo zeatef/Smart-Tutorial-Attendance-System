@@ -14,7 +14,7 @@ namespace GUC_Attendance
 
 		void CloseServerSocket ();
 
-		void SetClientSocket (string id);
+		void SetClientSocket (string id, int ipaddress);
 
 	}
 }

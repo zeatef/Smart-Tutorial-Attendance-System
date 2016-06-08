@@ -25,7 +25,7 @@ namespace GUC_Attendance.iOS
 			serverSocket = new Server_iOS (ip);
 		}
 
-		public void SetClientSocket (string id)
+		public void SetClientSocket (string id, int ipaddress)
 		{
 			serverSocket = new Server_iOS (new IPAddress (12345));
 		}

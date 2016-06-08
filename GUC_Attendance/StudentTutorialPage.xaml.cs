@@ -18,8 +18,6 @@ namespace GUC_Attendance
 		SQLDatabase _database;
 		enroll_view enrollview;
 		int w_no;
-		string datenow;
-		private ListView _data;
 		SQL_API_Manager sqlapimanager;
 		string room = "";
 
@@ -28,7 +26,6 @@ namespace GUC_Attendance
 			this._database = db;
 			this.enrollview = e;
 			this.w_no = w_no;
-			this.datenow = datenow;
 			this.sqlapimanager = new SQL_API_Manager (_database);
 			this.room = e.room;
 
@@ -136,25 +133,33 @@ namespace GUC_Attendance
 				stack.Children.Add (roomname);
 				stack.Children.Add (checkbox);
 			}
-
-
+				
 			this.Title = enrollview.course;
-
-
-
-
-
 
 		}
 
 		public async void OnCheckBoxClicked (object sender, EventArgs e)
 		{
 			Debug.WriteLine (DependencyService.Get<IGetConnectionSSID> ().getSSID ());
-			Debug.WriteLine ("GUCAttendance_" + room);
 			if (!DependencyService.Get<IGetConnectionSSID> ().getSSID ().Equals ("GUCAttendance_" + room)) {
 				await UserDialogs.Instance.AlertAsync ("Please connect to GUCAttendance_" + room + " in your tutorial room to mark your attendance.", "");
 			} else {
-				DependencyService.Get<ISocketProgramming> ().SetClientSocket (_database.GetStudentID (enrollview.student));
+				var result = await UserDialogs.Instance.PromptAsync (new PromptConfig {
+					Title = "Please ask your instructor about the code and enter it below.",
+					IsCancellable = false,
+					OkText = "Continue"
+				});
+				string returnedcode = result.Text;
+				ConfirmConfig c = new ConfirmConfig {
+					Title = "The code is: " + returnedcode + ". Continue?"
+				};
+				c.UseYesNo ();
+				var r = await UserDialogs.Instance.ConfirmAsync (c);
+				var text = (r ? "Yes" : "No");
+				if (text.Equals ("Yes")) {
+					int ipaddress = Int32.Parse (returnedcode);
+					DependencyService.Get<ISocketProgramming> ().SetClientSocket (_database.GetStudentID (enrollview.student), ipaddress);
+				}
 			}
 		}
 	}

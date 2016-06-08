@@ -197,8 +197,6 @@
     <Compile Include="SocketProgramming_Android.cs" />
     <Compile Include="Server_Android.cs" />
     <Compile Include="Client_Android.cs" />
-    <Compile Include="ServerAsync_Android.cs" />
-    <Compile Include="ClientAsync_Android.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

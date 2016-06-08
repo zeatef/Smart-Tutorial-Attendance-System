@@ -42,7 +42,6 @@ namespace GUC_Attendance
 			int month = now.Month;
 			int year = now.Year;
 			weekday = now.DayOfWeek.ToString ();
-//			weekday = "Tuesday";
 			int subtraction = 0;
 			if (weekday.Equals ("Sunday")) {
 				subtraction = -1;
@@ -105,40 +104,6 @@ namespace GUC_Attendance
 				UserDialogs.Instance.ShowLoading ("Logging Out");
 
 				Navigation.PopAsync ();
-			}
-		}
-
-		public async void RefreshData (object sender, EventArgs e)
-		{
-			if (Device.OS == TargetPlatform.iOS) {
-				try {
-					if (DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-						UserDialogs.Instance.InfoToast ("Refreshing", "Syncing data, please wait...", 100000000);
-						await sqlapimanager.fetchDataFromAPItoSQL ();
-						UserDialogs.Instance.SuccessToast ("Success", "Data synced successfully", 3000);
-						_data.ItemsSource = _database.FilterStudentCoursesTodayFromEnrollView (_database.GetStudentName (user.sid), weekday);
-					} else {
-						UserDialogs.Instance.Alert ("Please connect to the internet and try again.");
-					}
-
-				} catch (System.Net.WebException ee) {
-					UserDialogs.Instance.ErrorToast ("Network Error", "Please Try Again", 3000);
-				}
-			} else {
-				try {
-					if (DependencyService.Get<IGetConnectionSSID> ().IsConnectedToInternet ()) {
-						UserDialogs.Instance.ShowLoading ("Refreshing, Please Wait...");
-						await sqlapimanager.fetchDataFromAPItoSQL ();
-						_data.ItemsSource = _database.FilterStudentCoursesTodayFromEnrollView (_database.GetStudentName (user.sid), weekday);
-						UserDialogs.Instance.HideLoading ();
-					} else {
-						UserDialogs.Instance.Alert ("Please connect to the internet and try again.");
-					}
-
-				} catch (System.Net.WebException ee) {
-					UserDialogs.Instance.HideLoading ();
-					UserDialogs.Instance.ErrorToast ("Network Error", "Please Try Again", 3000);
-				}
 			}
 		}
 

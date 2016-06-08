@@ -64,7 +64,6 @@
     <Compile Include="Home_Instructor.xaml.cs">
       <DependentUpon>Home_Instructor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs" />
     <Compile Include="AddClass.xaml.cs">
       <DependentUpon>AddClass.xaml</DependentUpon>
     </Compile>

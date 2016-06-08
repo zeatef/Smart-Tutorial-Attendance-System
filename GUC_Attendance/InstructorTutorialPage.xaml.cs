@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Smart Tutorial Attendance System
+// Created By: Zeyad Ahmed Atef
+// Started: February 2016
+
+using System;
 using System.Collections.Generic;
 using GUC_Attendance.Models;
 
@@ -13,6 +17,7 @@ using System.Threading;
 using Org.BouncyCastle.Asn1.X509;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using Org.BouncyCastle.Cms;
 
 
 namespace GUC_Attendance
@@ -26,6 +31,7 @@ namespace GUC_Attendance
 		Button record;
 		Button stoprecording;
 		Button uploadattendance;
+		Label address;
 		IEnumerable<WeeklyAttendance> itemssource;
 		bool recording;
 		enroll_view e;
@@ -49,7 +55,6 @@ namespace GUC_Attendance
 			_data.ItemTemplate = new DataTemplate (typeof(InstructorTutorialCustomCell));
 			_data.IsPullToRefreshEnabled = true;
 			_data.RefreshCommand = new Command (this.Refresh);
-			_data.BindingContextChanged += this.RefreshAutomatically;
 			Label today = new Label { Text = datenow, XAlign = TextAlignment.Center, TextColor = Color.Black };
 			Label week = new Label {
 				Text = "Week " + w_no,
@@ -58,9 +63,6 @@ namespace GUC_Attendance
 			};
 
 			record = new Button{ Text = "Record Attendance" };
-
-
-
 
 			InitializeComponent ();
 
@@ -71,21 +73,14 @@ namespace GUC_Attendance
 				break;
 			}
 
-
-
 			record.Clicked += OnRecordClicked;
-
-
+	
 			title.TextColor = Color.Black;
 
 			stack.Children.Add (week);
 			stack.Children.Add (today);
 			stack.Children.Add (record);
 			stack.Children.Add (_data);
-
-
-
-
 
 		}
 
@@ -96,32 +91,30 @@ namespace GUC_Attendance
 			_data.EndRefresh ();
 		}
 
-		public async void RefreshAutomatically (object sender, EventArgs e)
-		{
-//			ObservableCollection<WeeklyAttendance> check = new ObservableCollection<WeeklyAttendance> ();
-//			IEnumerable<WeeklyAttendance> dbcheck = _database.GetTodayAttendance (this.e, w_no);
-//			foreach (WeeklyAttendance a in dbcheck) {
-//				check.Add (a);
-//			}
-			_data.ItemsSource = _database.GetTodayAttendance (this.e, w_no);
-		}
 
 		public async void OnRecordClicked (object sender, EventArgs e)
 		{
-			if (!DependencyService.Get<IGetConnectionSSID> ().getSSID ().Equals ("GUCAttendance_" + room)) {
+			if (DependencyService.Get<IGetConnectionSSID> ().getSSID ().Equals ("GUCAttendance_" + room)) {
 				await UserDialogs.Instance.AlertAsync ("You must be connected to the hotspot of the tutorials's room.", "");
 			} else {
-				int duration = 0;
 				recording = true;
 				record.Text = "Recording...";
 				record.IsEnabled = false;
 				stoprecording = new Button { Text = "Stop Recording" };
 				stoprecording.Clicked += OnStopRecordingClicked;
+				int ip = DependencyService.Get<IGetConnectionSSID> ().getIP ();
+				address = new Label {
+					Text = "Please ask students to enter the following code and mark their attendance: " + ip,
+					TextColor = Color.Black,
+					XAlign = TextAlignment.Center,
+					FontSize = 12,
+					FontAttributes = FontAttributes.Italic
+				};
 				stack.Children.Remove (_data);
+				stack.Children.Add (address);
 				stack.Children.Add (stoprecording);
 				stack.Children.Add (_data);
 				await Task.Delay (1000);
-				int ip = DependencyService.Get<IGetConnectionSSID> ().getIP ();
 				DependencyService.Get<ISocketProgramming> ().SetServerSocket (_database, this.e, w_no, ip, itemssource);
 			}
 		}
@@ -134,6 +127,7 @@ namespace GUC_Attendance
 			uploadattendance.Clicked += OnUploadAttendanceClicked;
 			stack.Children.Remove (record);
 			stack.Children.Remove (_data);
+			stack.Children.Remove (address);
 			stack.Children.Remove (stoprecording);
 			stack.Children.Add (uploadattendance);
 			stack.Children.Add (_data);
@@ -150,9 +144,12 @@ namespace GUC_Attendance
 				UserDialogs.Instance.SuccessToast ("Attendance Uploaded Successfully");
 				await Navigation.PopAsync ();
 
-			} catch (Exception exc) {
+			} catch (System.Net.WebException ee) {
 				UserDialogs.Instance.HideLoading ();
 				UserDialogs.Instance.Alert ("Slow Internet Connection - Please Try Again");
+			} catch (Exception exc) {
+				UserDialogs.Instance.HideLoading ();
+				UserDialogs.Instance.Alert ("An Error Has Occured - Please Try Again");
 			}
 
 		}

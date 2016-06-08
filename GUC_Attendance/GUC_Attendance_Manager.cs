@@ -26,13 +26,9 @@ namespace GUC_Attendance
 		public IMobileServiceTable<WeeklyAttendance> weeklyattendanceAPITable;
 		public IMobileServiceTable<Week> weeksAPITable;
 
-
-
-
-
 		public GUC_Attendance_Manager ()
 		{
-			//API Initilization
+			//Connecting to the Web Database
 			client = new MobileServiceClient (Constants.ApplicationURL, Constants.ApplicationKey);
 
 			studentsAPITable = client.GetTable<Student> ();
@@ -46,6 +42,9 @@ namespace GUC_Attendance
 
 		}
 
+
+		//Signup Method
+		//****************************************************************************************************
 
 		public async Task AddMember (Member m)
 		{
@@ -201,7 +200,7 @@ namespace GUC_Attendance
 			return null;
 		}
 
-		//Methods on Table: Slot
+		//Methods on Table: Slot and Weeks
 		//****************************************************************************************************
 
 		public async Task<ObservableCollection<Slot>> GetAllSlots ()
@@ -305,78 +304,9 @@ namespace GUC_Attendance
 			await weeksAPITable.InsertAsync (j);
 			await weeksAPITable.InsertAsync (k);
 			await weeksAPITable.InsertAsync (l);
-
-
 		}
 
-
-		//		public async Task setslots ()
-		//		{
-		//			int check = 1;
-		//			string d = "";
-		//			string t = "";
-		//			int n = 1;
-		//
-		//			for (int i = 0; i < 6; i++)
-		//			{
-		//				switch (check)
-		//				{
-		//				case 1:
-		//					d = "Saturday";
-		//					break;
-		//				case 2:
-		//					d = "Sunday";
-		//					break;
-		//				case 3:
-		//					d = "Monday";
-		//					break;
-		//				case 4:
-		//					d = "Tuesday";
-		//					break;
-		//				case 5:
-		//					d = "Wednesday";
-		//					break;
-		//				case 6:
-		//					d = "Thursday";
-		//					break;
-		//				}
-		//
-		//				for (int j = 0; j < 5; j++)
-		//				{
-		//					switch (j) {
-		//					case 0:
-		//						t = "1st";
-		//						break;
-		//					case 1:
-		//						t = "2nd";
-		//						break;
-		//					case 2:
-		//						t = "3rd";
-		//						break;
-		//					case 3:
-		//						t = "4th";
-		//						break;
-		//					case 4:
-		//						t = "5th";
-		//						break;
-		//					}
-		//					var slot = new Slot {
-		//						day = d,
-		//						timing = t,
-		//						slot_no = n
-		//					};
-		//					n++;
-		//					await slotsAPITable.InsertAsync (slot);
-		//				}
-		//
-		//				check++;
-		//
-		//			}
-		//
-		//		}
-
-
-		//Methods on Table: enroll
+		//Methods on Table: enroll and enroll_view
 		//****************************************************************************************************
 
 		public async Task<ObservableCollection<enroll>> GetAllEnroll (int i)
@@ -403,6 +333,17 @@ namespace GUC_Attendance
 				Debug.WriteLine (@"ERROR {0}", e.Message);
 			}
 			return null;
+		}
+
+		public async Task<List<enroll>> GetEnrollList (int tid, int cid, int slot_no, string tutorial)
+		{
+			return await enrollAPITable.Where (a => a.tid == tid && a.cid == cid && a.slot_no == slot_no && a.tutorial == tutorial).ToListAsync ();
+		}
+
+		public async Task<enroll> GetEnroll (int eid)
+		{
+			List<enroll> list = await enrollAPITable.Where (a => a.eid == eid).ToListAsync ();
+			return list [0];
 		}
 
 		public async Task<ObservableCollection<enroll_view>> GetAllEnrollView (int i)
@@ -457,39 +398,6 @@ namespace GUC_Attendance
 			}
 			return;
 		}
-
-
-		public async Task<List<enroll>> GetEnrollList (int tid, int cid, int slot_no, string tutorial)
-		{
-			return await enrollAPITable.Where (a => a.tid == tid && a.cid == cid && a.slot_no == slot_no && a.tutorial == tutorial).ToListAsync ();
-
-		}
-
-		public async Task<enroll> GetEnroll (int eid)
-		{
-			List<enroll> list = await enrollAPITable.Where (a => a.eid == eid).ToListAsync ();
-			return list [0];
-		}
-
-		public async Task undelete ()
-		{
-			List<enroll> l = await enrollAPITable.IncludeDeleted ().Take (100).Where (a => a.tid == 2).ToListAsync ();
-			foreach (enroll item in l) {
-				await enrollAPITable.UndeleteAsync (item);
-			}
-
-			List<enroll_view> ll = await enroll_viewAPITable.IncludeDeleted ().Where (a => a.instructor == "Rana Helal").ToListAsync ();
-			foreach (enroll_view item in ll) {
-				await enroll_viewAPITable.UndeleteAsync (item);
-			}
-
-			List<WeeklyAttendance> lw = await weeklyattendanceAPITable.IncludeDeleted ().Take (1000).Where (a => a.instructor == "Rana Helal").ToListAsync ();
-			foreach (WeeklyAttendance item in lw) {
-				await weeklyattendanceAPITable.UndeleteAsync (item);
-			}
-			return;
-		}
-
 	}
 }
 	

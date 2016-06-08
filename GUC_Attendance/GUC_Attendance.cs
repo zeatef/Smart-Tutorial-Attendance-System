@@ -18,6 +18,7 @@ namespace GUC_Attendance
 		{
 			database = new SQLDatabase ();
 			manager = new SQL_API_Manager (database);
+
 			// The root page of your application
 			MainPage = new NavigationPage (new GUC_Attendance.Login (database));
 
@@ -33,7 +34,6 @@ namespace GUC_Attendance
 		protected override void OnStart ()
 		{
 			// Handle when your app starts
-//			this.FetchData ();
 		}
 
 		protected override void OnSleep ()

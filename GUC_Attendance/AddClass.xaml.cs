@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Smart Tutorial Attendance System
+// Created By: Zeyad Ahmed Atef
+// Started: February 2016
+
+using System;
 using System.Collections.Generic;
 using CsvHelper;
 using System.Threading.Tasks;
@@ -31,13 +35,7 @@ namespace GUC_Attendance
 			sqlapimanager = new SQL_API_Manager (_database);
 			user = ins;
 			InitializeComponent ();
-//			cname.Text = "Theory Of Computation";
-//			ccode.Text = "CSEN502";
-//			day.SelectedIndex = 2;
-//			slot.SelectedIndex = 3;
-//			filename.Text = "1";
-//			room.Text = "C2.201";
-
+		
 			if (Device.OS == TargetPlatform.Android) {
 				addclass.TextColor = Color.White;
 			}
@@ -136,9 +134,6 @@ namespace GUC_Attendance
 								string ffname = sArray [0];
 								string llname = sArray [sArray.Length - 1];
 								int slot_no = sqlapimanager.stringToSlotNumber (this.getDay (day.SelectedIndex), this.getSlot (slot.SelectedIndex));
-
-
-
 
 								if (!(await sqlapimanager.StudentExists (id))) {
 									count++;

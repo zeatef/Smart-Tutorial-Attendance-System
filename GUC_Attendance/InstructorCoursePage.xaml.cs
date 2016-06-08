@@ -26,7 +26,6 @@ namespace GUC_Attendance
 			this.enrollview = ee;
 			this.sqlapimanager = new SQL_API_Manager (_database);
 			InitializeComponent ();
-//			this.RefreshData ();
 
 			_data = new ListView ();
 			_data.BackgroundColor = Color.FromHex ("#dbedf2");

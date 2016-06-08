@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Smart Tutorial Attendance System
+// Created By: Zeyad Ahmed Atef
+// Started: February 2016
+
+using System;
 using System.Collections.Generic;
 using Acr.UserDialogs;
 using Xamarin.Forms;

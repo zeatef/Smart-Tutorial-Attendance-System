@@ -27,7 +27,6 @@ namespace GUC_Attendance
 			this._database = database;
 			this.sqlapimanager = new SQL_API_Manager (_database);
 
-
 			InitializeComponent ();
 			_data = new ListView ();
 			_data.IsPullToRefreshEnabled = true;
@@ -69,7 +68,6 @@ namespace GUC_Attendance
 				Navigation.PopAsync ();
 			}
 		}
-
 
 		public async void RefreshData (object sender, EventArgs e)
 		{

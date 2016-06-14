@@ -46,7 +46,7 @@ namespace GUC_Attendance.Droid
 						while (!networkstream.DataAvailable) {
 							networkstream.Write (buffer, 0, buffer.Length);
 							System.Diagnostics.Debug.WriteLine ("PING!!!");
-							Thread.Sleep (10000);
+							Thread.Sleep (60000);
 						}
 					} catch (Exception ee) {
 						UserDialogs.Instance.Alert (ee.Message);
